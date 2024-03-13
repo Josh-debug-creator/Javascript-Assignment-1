@@ -52,13 +52,13 @@ function numberOfClicks()
             document.getElementById("chances").innerHTML = `You have ${5 - numberOfGuess} more trials`;
         }
     //     else if
-    //     (numberOfGuess = 4 )
+    //     (numberOfGuess === 4 )
     //    {
     //         numberOfGuess++;
     //         alert(`${numberOfGuess} attempts made`)
     //         document.getElementById("chances").innerHTML = `You have ${5 - numberOfGuess} more trial`;
     //    }
-    else if (numberOfGuess = 5){
+    else if (numberOfGuess === 5){
         document.getElementById("chances").innerHTML = `You have exhauseted your trials, try again later`;
     }
      }
